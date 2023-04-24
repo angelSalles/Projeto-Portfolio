@@ -1,4 +1,4 @@
-#Olá e bem-vindo(a) ao meu site de portfólio!
+# Olá e bem-vindo(a) ao meu site de portfólio!
 
 Este site tem como objetivo apresentar o meu trabalho e habilidades em uma variedade de áreas. Aqui, você encontrará uma seleção dos meus projetos mais recentes e também poderá conhecer um pouco mais sobre mim e minha experiência.
 
