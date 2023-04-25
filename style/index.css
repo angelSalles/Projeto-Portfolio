@@ -25,6 +25,10 @@ body{
     letter-spacing: 0.2em;
 }
 
+.header-main a:hover{
+    color: #bebdbd;
+}
+
 .logo{
     width: 29vw;
     height: 50px;
