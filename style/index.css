@@ -20,36 +20,49 @@ body{
     color: #ACACAC;
     text-decoration: none;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 15px;
+    font-size: 100%;
+    line-height: 0.2em;
     letter-spacing: 0.2em;
 }
 
 .logo{
-    width: 29vw;
-    height: 50px;
+    width: 33%;
 }
 
 .logo img{
-    width: 9.75em;
+    width: 40%;
+    margin-left: 12%;
 }
 
 .nav-bar{
-    height: 50px;
+    width: 33.33%;   
 }
 
-.nav-bar-itens{
-    display: flex;
+.ul-itens{
     list-style: none;
-    width:29vw;
-    justify-content: space-around;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .contato{
     display: flex;
-    width:29vw;
-    height: 50px;
+    width: 33%;
+    height: 50%;    
     justify-content: flex-end;
+    align-items: center;
+}
+
+.contato p{
+    margin-right: 13.5%;
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 2px;
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-content{
@@ -89,6 +102,8 @@ body{
 .footer-main{
     width: 100%;
     height: 2em;
+    position: absolute;
+    bottom: 0;
     background: rgba(0, 0, 0, 0.31);
     display: flex;
     justify-content: center;
