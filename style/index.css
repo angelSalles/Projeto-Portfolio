@@ -1,7 +1,5 @@
 body{
-    background-image: url("/assets/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: black;
     font-family: 'League Spartan', sans-serif;
     font-style: normal;
     margin: 0%;
