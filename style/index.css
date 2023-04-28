@@ -9,8 +9,7 @@ body{
 }
 
 .header-main{
-    width: 100%;
-    height: 15vh;
+    height: 13vh;
     display: flex;
     align-items: center;
     justify-content: center;   
@@ -20,8 +19,8 @@ body{
     color: #ACACAC;
     text-decoration: none;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 15px;
+    font-size: 1em;
+    line-height: 2em;
     letter-spacing: 0.2em;
 }
 
@@ -31,15 +30,15 @@ body{
 
 .logo{
     width: 29vw;
-    height: 50px;
+    height: 10vh;
 }
 
 .logo img{
-    width: 9.75em;
+    width: 20vw;
 }
 
 .nav-bar{
-    height: 50px;
+    height: 10vh;
 }
 
 .nav-bar-itens{
@@ -49,25 +48,35 @@ body{
     justify-content: space-around;
 }
 
-.contato{
+.redes{
     display: flex;
     width:29vw;
-    height: 50px;
+    height: 10vh;
     justify-content: flex-end;
+}
+
+.contato{
+    background-color: rgba(0, 0, 0, 0.28);
+    border-radius: 0.2em;
+    display: flex;
+    width: 7em;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-content{
     width: 90%;
-    height: 541px;
+    height: 75vh;
     margin: auto;
     background: rgba(0, 0, 0, 0.34);
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    backdrop-filter: blur(6px);
-    border-radius: 10px;
+    border: 1em solid rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(0.2em);
+    border-radius: 0.6em;
     display: flex;
     flex-wrap: wrap;
     color: white;
-    margin-bottom: 26px;
+    margin-bottom: 1.2em;
 }
 
 .main-perfil, .main-apresentacao{
@@ -92,7 +101,7 @@ body{
 
 .footer-main{
     width: 100%;
-    height: 2em;
+    height: 1.5em;
     background: rgba(0, 0, 0, 0.31);
     display: flex;
     justify-content: center;
