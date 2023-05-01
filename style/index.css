@@ -84,6 +84,9 @@ body{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: 0.2em;
+    font-weight: 700;
 }
 
 .main-perfil, .main-apresentacao{
@@ -93,14 +96,18 @@ body{
 
 .main-apresentacao h1{
     margin: 0;
-    font-size: 2em;
-    line-height: 56px;
+    font-size: 3em;
+    line-height: 1.1em;
     letter-spacing: 0.2em;
+}
+
+.main-apresentacao strong{
+    color: #08FED8;
 }
 
 .main-perfil{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -108,9 +115,11 @@ body{
     height: 35vh;   
     background: url(perfilAzulEscuro);
     filter: drop-shadow(17px 15px 14px rgba(255, 255, 255, 0.42));
+    margin-left: 10vh;
 }
 
 .main-descricao{
+    margin-top: 2em;
     width: 100%;
  }
 
