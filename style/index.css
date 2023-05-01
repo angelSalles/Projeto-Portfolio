@@ -84,7 +84,7 @@ body{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1em;
+    line-height: 0.5em;
     letter-spacing: 0.2em;
     font-weight: 700;
 }
@@ -122,6 +122,7 @@ body{
 .main-descricao{
     margin-top: 2em;
     width: 100%;
+    line-height: 1.3em;
  }
 
 .footer-main{
