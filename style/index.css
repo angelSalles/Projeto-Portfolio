@@ -1,19 +1,17 @@
 body{
-    background-image: url("/assets/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
+    background: black;
     font-family: 'League Spartan', sans-serif;
     font-style: normal;
     margin: 0%;
 }
 
 .header-main{
-    width: 100%;
-    height: 15vh;
+    height: 13vh;
+    width: 80%;
     display: flex;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;  
+    margin: auto; 
 }
 
 .header-main a{
@@ -25,17 +23,21 @@ body{
     letter-spacing: 0.2em;
 }
 
+.header-main a:hover{
+    color: #bebdbd;
+}
+
 .logo{
-    width: 33%;
+    width: 29vw;
+    height: 50px;
 }
 
 .logo img{
-    width: 40%;
-    margin-left: 12%;
+    width: 9.75em;
 }
 
 .nav-bar{
-    width: 33.33%;   
+    height: 50px;
 }
 
 .ul-itens{
@@ -46,10 +48,10 @@ body{
     width: 100%;
 }
 
-.contato{
+.redes{
     display: flex;
-    width: 33%;
-    height: 50%;    
+    width:29vw;
+    height: 50px;
     justify-content: flex-end;
     align-items: center;
 }
@@ -65,22 +67,45 @@ body{
     align-items: center;
 }
 
+.contato{
+    background-color: rgba(0, 0, 0, 0.28);
+    border-radius: 0.2em;
+    display: flex;
+    width: 7em;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-content{
-    width: 90%;
-    height: 541px;
+    width: 80%;
+    height: 80vh;
     margin: auto;
+    box-sizing: border-box;
+    padding: 3em;
     background: rgba(0, 0, 0, 0.34);
-    border: 1px solid rgba(255, 255, 255, 0.01);
-    backdrop-filter: blur(6px);
-    border-radius: 10px;
+    border: 1em solid rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(0.2em);
+    border-radius: 0.6em;
     display: flex;
     flex-wrap: wrap;
     color: white;
-    margin-bottom: 26px;
+    margin-bottom: 1.2em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
 }
 
 .main-perfil, .main-apresentacao{
     width: 50%;
+    padding: 0;
+}
+
+.main-apresentacao h1{
+    margin: 0;
+    font-size: 2em;
+    line-height: 56px;
+    letter-spacing: 0.2em;
 }
 
 .main-perfil{
@@ -95,15 +120,13 @@ body{
     filter: drop-shadow(17px 15px 14px rgba(255, 255, 255, 0.42));
 }
 
- .main-descricao{
+.main-descricao{
     width: 100%;
  }
 
 .footer-main{
     width: 100%;
     height: 2em;
-    position: absolute;
-    bottom: 0;
     background: rgba(0, 0, 0, 0.31);
     display: flex;
     justify-content: center;
