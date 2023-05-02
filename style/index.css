@@ -83,7 +83,7 @@ body{
     margin-bottom: 1.2em;
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 0.5em;
     letter-spacing: 0.2em;
     font-weight: 700;
@@ -91,15 +91,30 @@ body{
 
 .main-perfil, .main-apresentacao{
     width: 50%;
+    height: 65%;
     padding: 0;
 }
 
 .main-apresentacao h1{
     margin: 0;
-    font-size: 3em;
+    font-size: 2.7em;
     line-height: 1.1em;
     letter-spacing: 0.2em;
     margin-bottom: 0.5em;
+}
+
+.piscando{
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    from, to { opacity: 1; } /* Define os estados inicial e final da animação */
+    50% { opacity: 0; } /* Define o estado intermediário da animação */
+  }
+
+.main-apresentacao p{
+    font-size: 0.9em;
+    color: #dddddd;
 }
 
 .main-apresentacao strong{
@@ -115,7 +130,7 @@ body{
 .main-perfil img{
     height: 35vh;   
     background: url(perfilAzulEscuro);
-    filter: drop-shadow(17px 15px 14px rgba(255, 255, 255, 0.42));
+    filter: drop-shadow(17px 15px 14px rgb(209, 163, 172,0.42));
     margin-left: 10vh;
 }
 
@@ -123,6 +138,8 @@ body{
     margin-top: 2em;
     width: 100%;
     line-height: 1.3em;
+    font-size: 0.9em;
+    font-weight: 500;
  }
 
 .footer-main{
